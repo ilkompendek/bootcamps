@@ -1,0 +1,13 @@
+#tables {
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    width: 50%;
+    margin: 5%;
+    padding: 10px 40px;
+}
+
+.button{
+    width: 10px;
+}
