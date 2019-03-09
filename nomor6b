@@ -1,0 +1,9 @@
+SELECT
+    catagories.id,
+    catagories.name,
+    products.name
+FROM
+    catagories
+LEFT JOIN products ON catagories.id = products.catagory_id
+ORDER BY
+    catagories.id
